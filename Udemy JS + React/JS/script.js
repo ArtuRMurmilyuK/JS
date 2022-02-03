@@ -1,17 +1,17 @@
 "use sctrict";
 
-//alert('hello');
+console.log('arr' + " - object");
+console.log(4 + "5");
 
-//const res = confirm("Are you here?");
-//console.log(res);
+let incr = 10,
+    decr = 10;
 
-//const answer = prompt("Вам есть 18?", "18");
-//console.log(answer);
+incr++;
+decr--;
 
-const answer = [];
+console.log(incr);
+console.log(decr);
 
-answer[0] = prompt('Как ваше имя?');
-answer[1] = prompt('Какая ваша фамилия?');
-answer[2] = prompt('Сколько вам лет?');
+console.log(5%2);
 
-console.log(answer);
+console.log(2*4 == 8);
