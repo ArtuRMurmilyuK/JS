@@ -1,31 +1,22 @@
 'use sctrict';
 
-if (4 == 9) {
-    console.log("ok!");
-}else{
-    console.log("error");
+let num = 50;
+
+while(num  < 55){
+    console.log(num);
+    num++;
 }
 
-const num = 50;
-
-if(num < 49){
-    console.log("error");
-}else if(num > 100){
-    console.log("Много");
-}else{
-    console.log("Ok");
+do{
+    console.log(num);
+    num++;
 }
+while(num < 55);
 
-(num == 50) ? console.log("Ok") : console.log("error");
-
-switch(num){
-    case 49:
-        console.log("Error");
-        break;
-    case 50: 
-        console.log("Ok");
-        break;
-    default:
-        console.log("Not Number");
-        break;
+for (let i = 0; i < 8; i++) {
+    if (i === 6) {
+        //break;
+        continue;
+    }
+    console.log(i);
 }
