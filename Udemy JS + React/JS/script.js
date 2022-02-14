@@ -1,22 +1,20 @@
 'use sctrict';
 
-let num = 50;
-
-while(num  < 55){
-    console.log(num);
-    num++;
+function showFirstMessage(text){
+    console.log(text);
 }
 
-do{
-    console.log(num);
-    num++;
-}
-while(num < 55);
+showFirstMessage("Hello");
 
-for (let i = 0; i < 8; i++) {
-    if (i === 6) {
-        //break;
-        continue;
-    }
-    console.log(i);
+function calc(a, b){
+    return (a + b);
 }
+
+console.log(calc(1,2));
+
+
+const logger = function(){
+    console.log("Logger");
+};
+
+const mul = (a, b) => {return a * b};
