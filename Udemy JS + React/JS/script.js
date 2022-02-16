@@ -1,20 +1,20 @@
 'use sctrict';
 
-function showFirstMessage(text){
-    console.log(text);
-}
+const str = "test";
+const arr = [1, 2, 3];
 
-showFirstMessage("Hello");
+console.log(str.toUpperCase());
+console.log(str);
 
-function calc(a, b){
-    return (a + b);
-}
+let fruit = "Some fruit";
 
-console.log(calc(1,2));
+console.log(fruit.indexOf("fruit"));
 
+const logg = "Hello world";
 
-const logger = function(){
-    console.log("Logger");
-};
+console.log(logg.slice(6));
+//console.log(logg.substring(6, 11));
+//console.log(logg.substr(6, 5));
 
-const mul = (a, b) => {return a * b};
+const num = 12.2;
+console.log(Math.round(num));
